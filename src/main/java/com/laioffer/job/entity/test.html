@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2>The fruits we provide are: </h2>
+<ul id="box"></ul>
+<script>
+    var arr = ['apple', 'pear', 'berry'];
+    var ori = document.getElementById('box');
+
+    for(var i = 0; i < arr.length; i++ ) {
+        var add = document.createElement('li');
+        // add.className = 'item';
+        // add.id = arr[i];
+        add.innerHTML = arr[i];
+        ori.append(add);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // var oUl = document.getElementById('box');
+    //
+    // for(var i = 0; i < arr.length; i++){
+    //     var oLi = document.createElement('li');
+    //     oLi.className = 'item';
+    //     oLi.id = arr[i];
+    //     oLi.innerHTML = arr[i];
+    //     oUl.append(oLi);
+    // }
+</script>
+
+
+</body>
+</html>
