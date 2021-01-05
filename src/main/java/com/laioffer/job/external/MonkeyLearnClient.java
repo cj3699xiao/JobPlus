@@ -20,7 +20,6 @@ import java.util.*;
 public class MonkeyLearnClient {
     private static final String EXTRACT_URL = Constant.MONKEY_EXTRACT_URL;
     private static final String AUTH_TOKEN = Constant.MONKEY_AUTH_TOKEN;
-    
 
     public List<Set<String>> extract(List<String> articles) {
         ObjectMapper mapper = new ObjectMapper();
